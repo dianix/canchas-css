@@ -1,8 +1,60 @@
-#canchaTennis{
+#canchaTennis {
     height: 500px;
     width: 800px;
-    background-color: #009a76;
+    background-color: #007258;
     position: relative;
     margin-left: 17%;
     display: none;
+}
+
+#canchaTennis :first-child,
+#canchaTennis :nth-child(2),
+#canchaTennis :nth-child(3) {
+    position: absolute;
+    margin-top: 8%;
+    height: 2px;
+    width: 100%;
+    background-color: white;
+}
+
+#canchaTennis :nth-child(2) {
+    margin-top: 31%;
+    width: 60%;
+    margin-left: 20%;
+}
+
+#canchaTennis :nth-child(3) {
+    margin-top: 53%;
+}
+
+#canchaTennis :nth-child(4),
+#canchaTennis :nth-child(5),
+#canchaTennis :nth-child(6) {
+    position: absolute;
+    width: 2px;
+    height: 100%;
+    background-color: white;
+    margin-left: 20%;
+}
+
+#canchaTennis :nth-child(5) {
+    margin-left: 50%;
+    height: 72%;
+    margin-top: 8%;
+}
+
+#canchaTennis :nth-child(6) {
+    margin-left: 80%;
+}
+
+#canchaTennis :last-child {
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: greenyellow;
+    background-image: url(../imgs/tennis.jpg);
+    background-size: contain;
+    margin-left: 55%;
+    margin-top: 30%;
 }

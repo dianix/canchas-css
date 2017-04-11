@@ -12,7 +12,6 @@
 }
 
 #canchaBasketball :first-child, #canchaBasketball :nth-child(2), #canchaBasketball :nth-child(9) {
-    position: absolute;
     margin-top: 24%;
     margin-left: 20%;
     height: 100px;
