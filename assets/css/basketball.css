@@ -4,17 +4,107 @@
     background-color: #77b10c;
     position: relative;
     margin-left: 17%;
-    
+    display: none;
 }
 
 #canchaBasketball * {
     position: absolute;
 }
 
-#canchaBasketball :first-child {
+#canchaBasketball :first-child, #canchaBasketball :nth-child(2), #canchaBasketball :nth-child(9) {
     position: absolute;
-    height: 120px;
-    width: 120px;
+    margin-top: 24%;
+    margin-left: 20%;
+    height: 100px;
+    width: 100px;
     border: 2px solid #FFFFFF;
     border-radius: 50%;
+}
+
+#canchaBasketball :nth-child(2) {
+    margin-left: 67%;
+}
+
+#canchaBasketball :nth-child(9) {
+    margin-left: 43.5%;
+}
+
+#canchaBasketball :nth-child(3) {
+    width: 2px;
+    height: 210px;
+    background-color: white;
+    transform: rotate(100deg);
+    margin-left: 100px;
+    margin-top: 8.7%;
+}
+
+#canchaBasketball :nth-child(4) {
+    width: 2px;
+    height: 210px;
+    background-color: white;
+    transform: rotate(80deg);
+    margin-left: 100px;
+    margin-top: 26%;
+}
+
+#canchaBasketball :nth-child(6) {
+    width: 2px;
+    height: 210px;
+    background-color: white;
+    transform: rotate(100deg);
+    margin-left: 87%;
+    margin-top: 26%;
+}
+
+#canchaBasketball :nth-child(5) {
+    width: 2px;
+    height: 210px;
+    background-color: white;
+    transform: rotate(80deg);
+    margin-left: 87%;
+    margin-top: 8.7%;
+}
+
+#canchaBasketball :nth-child(7), #canchaBasketball :nth-child(8) {
+    width: 2px;
+    height: 102px;
+    background-color: white;
+    margin-top: 24%;
+    margin-left: 26.5%;
+}
+
+#canchaBasketball :nth-child(8) {
+    margin-left: 73.5%;
+}
+
+#canchaBasketball :nth-child(10) {
+    width: 2px;
+    height: 100%;
+    background-color: white;
+    margin-left: 50%;
+}
+
+#canchaBasketball :nth-child(11), #canchaBasketball :nth-child(12) {
+ 
+    margin-top: 7%;
+    width: 270px; 
+    height: 370px; 
+    border: 2px solid #ffffff; 
+    -moz-border-radius: 0 100px 100px 0;
+    -webkit-border-radius: 0 100px 100px 0;
+    border-radius: 0 200px 200px 0;
+}
+
+#canchaBasketball :nth-child(12) {
+    transform: rotate(180deg);
+    margin-left: 65.8%;
+}
+
+#canchaBasketball :last-child {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-image: url(../imgs/basketball.jpg);
+    background-size: contain;
+    margin: 28% 48%;
 }
