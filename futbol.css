@@ -1,0 +1,72 @@
+#canchaFutbol {
+    height: 500px;
+    width: 800px;
+    background-color: green;
+    position: relative;
+    margin-left: 17%;
+    display: none;
+}
+
+#canchaFutbol * {
+    position: absolute;
+}
+
+.porteria {
+    margin-top: 19%;
+    width: 15%;
+    height: 40%;
+    border: 2px solid #FFFFFF;
+    background-color: green;
+}
+
+.derecha {
+    margin-left: 84.5%;
+}
+
+#lineaCentral {
+    height: 100%;
+    width: 2px;
+    background-color: white;
+    margin-left: 49%;
+}
+
+#circuloCentral {
+    height: 160px;
+    width: 160px;
+    border: 2px solid #FFFFFF;
+    border-radius: 50%;
+    margin-left: 39%;
+    margin-top: 22%;
+}
+
+.circulo {
+   
+    margin-top: 25%;
+    height: 100px;
+    width: 100px;
+    border: 2px solid #FFFFFF;
+    border-radius: 50%;
+    margin-left: 9%
+}
+
+.derecho {
+    margin-left: 78%
+}
+
+#canchaBasketball{
+    height: 500px;
+    width: 800px;
+    background-color: green;
+    position: relative;
+    margin-left: 17%;
+    display: none;
+}
+
+#canchaTennis{
+    height: 500px;
+    width: 800px;
+    background-color: rgb(128, 0, 118);
+    position: relative;
+    margin-left: 17%;
+    display: none;
+}
