@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: darkred;
+    height: 60px;
+    padding: 10px;
+}
+
+h1 {
+    color: white;
+    font-size: 32px;
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+#botonera {
+    position: relative;
+    margin-top: 20px;
+    margin-left: 27%;
+    display: inline-block;
+}
+
+button {
+    border-width: 0;
+    padding: 8px;
+    width: 90px;
+    margin: 10px;
+    border-radius: 15px;
+}
+
+button:hover {
+    background-color: #a73131;
+    color: white;
+}
+
+section {
+    margin: 15px;
+}

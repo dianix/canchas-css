@@ -1,0 +1,8 @@
+#canchaTennis{
+    height: 500px;
+    width: 800px;
+    background-color: #009a76;
+    position: relative;
+    margin-left: 17%;
+    display: none;
+}

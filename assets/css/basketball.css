@@ -1,0 +1,20 @@
+#canchaBasketball{
+    height: 500px;
+    width: 800px;
+    background-color: #77b10c;
+    position: relative;
+    margin-left: 17%;
+    
+}
+
+#canchaBasketball * {
+    position: absolute;
+}
+
+#canchaBasketball :first-child {
+    position: absolute;
+    height: 120px;
+    width: 120px;
+    border: 2px solid #FFFFFF;
+    border-radius: 50%;
+}
